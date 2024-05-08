@@ -1,12 +1,14 @@
 package com.system.LibraryApplication.business.abstracts;
 
 import com.system.LibraryApplication.core.entities.Books;
+import com.system.LibraryApplication.core.entities.Borrows;
+
 import java.util.List;
 import java.util.Optional;
 
-public interface BooksService {
-    List<Books> findAll();
-    Optional<Books> findById(Long id);
-    Books save(Books authors);
+public interface BorrowsService {
+    List<Borrows> findAll();
+    Optional<Borrows> findById(Long id);
+    Borrows save(Borrows borrows);
     void deleteById(Long id);
 }
