@@ -1,6 +1,6 @@
 package com.system.LibraryApplication.business.abstracts;
 
-import com.system.LibraryApplication.core.entities.Categories;
+import com.system.LibraryApplication.entities.concretes.Categories;
 import java.util.List;
 import java.util.Optional;
 

@@ -1,8 +1,8 @@
 package com.system.LibraryApplication.business.concretes;
 
 import com.system.LibraryApplication.business.abstracts.BooksService;
-import com.system.LibraryApplication.core.entities.Books;
-import com.system.LibraryApplication.dataAccess.BooksRepository;
+import com.system.LibraryApplication.entities.concretes.Books;
+import com.system.LibraryApplication.dataAccess.abstracts.BooksRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

@@ -1,5 +1,6 @@
-package com.system.LibraryApplication.core.entities;
+package com.system.LibraryApplication.entities.concretes;
 
+import com.system.LibraryApplication.core.entities.BaseEntity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -13,7 +14,7 @@ import java.time.LocalDate;
 @Getter
 @Setter
 @Table(name = "borrows")
-public class Borrows {
+public class Borrows extends BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "borrow_id")

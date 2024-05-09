@@ -1,8 +1,8 @@
 package com.system.LibraryApplication.business.concretes;
 
 import com.system.LibraryApplication.business.abstracts.CategoriesService;
-import com.system.LibraryApplication.core.entities.Categories;
-import com.system.LibraryApplication.dataAccess.CategoriesRepository;
+import com.system.LibraryApplication.entities.concretes.Categories;
+import com.system.LibraryApplication.dataAccess.abstracts.CategoriesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

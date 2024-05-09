@@ -1,6 +1,6 @@
 package com.system.LibraryApplication.business.abstracts;
 
-import com.system.LibraryApplication.core.entities.Members;
+import com.system.LibraryApplication.entities.concretes.Members;
 import java.util.List;
 import java.util.Optional;
 

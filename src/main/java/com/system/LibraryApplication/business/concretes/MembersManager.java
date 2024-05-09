@@ -1,8 +1,8 @@
 package com.system.LibraryApplication.business.concretes;
 
 import com.system.LibraryApplication.business.abstracts.MembersService;
-import com.system.LibraryApplication.core.entities.Members;
-import com.system.LibraryApplication.dataAccess.MembersRepository;
+import com.system.LibraryApplication.entities.concretes.Members;
+import com.system.LibraryApplication.dataAccess.abstracts.MembersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

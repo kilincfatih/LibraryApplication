@@ -1,7 +1,7 @@
 package com.system.LibraryApplication.api.controllers;
 
 import com.system.LibraryApplication.business.abstracts.BorrowsService;
-import com.system.LibraryApplication.core.entities.Borrows;
+import com.system.LibraryApplication.entities.concretes.Borrows;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

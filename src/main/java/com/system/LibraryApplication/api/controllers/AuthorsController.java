@@ -1,7 +1,7 @@
 package com.system.LibraryApplication.api.controllers;
 
 import com.system.LibraryApplication.business.abstracts.AuthorsService;
-import com.system.LibraryApplication.core.entities.Authors;
+import com.system.LibraryApplication.entities.concretes.Authors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

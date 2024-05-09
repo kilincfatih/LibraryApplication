@@ -1,5 +1,6 @@
-package com.system.LibraryApplication.core.entities;
+package com.system.LibraryApplication.entities.concretes;
 
+import com.system.LibraryApplication.core.entities.BaseEntity;
 import jakarta.persistence.*;
 import lombok.*;
 import java.time.LocalDate;
@@ -9,7 +10,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @Data
 @Table(name = "authors")
-public class Authors {
+public class Authors extends BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "author_id")

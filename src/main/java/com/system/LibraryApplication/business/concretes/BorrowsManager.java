@@ -1,8 +1,8 @@
 package com.system.LibraryApplication.business.concretes;
 
 import com.system.LibraryApplication.business.abstracts.BorrowsService;
-import com.system.LibraryApplication.core.entities.Borrows;
-import com.system.LibraryApplication.dataAccess.BorrowsRepository;
+import com.system.LibraryApplication.entities.concretes.Borrows;
+import com.system.LibraryApplication.dataAccess.abstracts.BorrowsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
