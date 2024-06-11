@@ -1,6 +1,6 @@
 # Kütüphane Uygulaması
 
-Bu kütüphane uygulaması, "Üye İşlemleri, Kitap İşlemleri, Ödünç İşlemleri" gibi birçok işlevin (CRUD işlemleri) gerçekleştirilmesine olanak sağlar. Hata mesajları alanı geliştirilmeye devam edilmektedir.
+Bu kütüphane uygulaması, "Üye İşlemleri, Kitap İşlemleri, Ödünç İşlemleri" gibi birçok işlevin (CRUD işlemleri) gerçekleştirilmesine olanak sağlar. 
 </br>
 
 ## Özellikler
@@ -9,7 +9,7 @@ Bu kütüphane uygulaması, "Üye İşlemleri, Kitap İşlemleri, Ödünç İşl
 - **Kitap İşlemleri**: Kitap ekleme, silme, güncelleme ve listeleme.
 - **Ödünç İşlemleri**: Kitap ödünç alma ve geri verme işlemleri.
 - **Hata Yönetimi**: Kullanıcı dostu hata mesajları ve uyarılar.
-- **NOT**: Hata mesajları şu anda geliştirilmeye devam edilmektedir !
+
 </br>
 
 ## Kullanılan Teknolojiler
